@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Responsividade</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+        :root {
+            --font-padrao: 'Oswald', sans-serif;
+            --font-paragrafo: 'Roboto', sans-serif;
+            }
+              
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        body {
+            height: auto;
+            background-color: #8C7E8C;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        main {
+            background-color: white;
+            padding: 0px 10px 10px 10px;
+            border-radius: 10px;
+            min-width: 320px;
+            max-width: 800px;
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            text-indent: 30px;
+            box-shadow: 0px 0px 3px 0px #0000007a;
+        }
+
+        main h1 {
+            color: #808080;
+            font-family: var(--font-padrao);
+            text-align: center;
+            margin: 0px;
+            text-shadow: 1px 0px 0px #2b2a2a50;
+        }
+
+        main p {
+            text-align: justify;
+            margin: 20px 0px 20px 0px;
+            font-family: var(--font-paragrafo);
+            line-height: 30px;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        footer {
+            background-color: #CCCCCC;
+            min-width: 320px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 0px 10px;
+            box-shadow: 0px 0px 3px 0px #0000007a;;
+            border-radius: 2px;
+        }
+        
+        footer p {
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+            color: #5c5a5a;
+            margin: 10px auto;
+            padding: 2px;
+
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Testando Responsividade</h1>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime cum ipsa, autem voluptas vitae ab eaque id
+            consequuntur dolores adipisci nulla cumque hic molestiae vero, aliquid aliquam minus dolorum eos. Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Pariatur officia ut illo unde modi vero neque quae
+            explicabo veritatis sunt atque ad, velit sit placeat amet quisquam maiores molestiae distinctio. Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Quae numquam incidunt ipsam est recusandae earum autem, libero,
+            consectetur tenetur temporibus quaerat eos eligendi, nobis minus quia ducimus blanditiis maiores voluptatem.
+        </p>
+
+        <picture>
+            <source media="(max-width: 600px)" srcset="images/irina-blok-pq.jpg">
+            <img src="images/irina-blok.jpg" alt="Irina Blok">
+        </picture>
+
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, earum fuga. Voluptatum ipsum tempora totam
+            soluta sequi labore accusamus, facere earum, incidunt, vitae aliquid officiis ducimus libero suscipit quis
+            fugit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, hic consequuntur? Non magnam quos
+            impedit, vero minima placeat fugiat necessitatibus rerum! Error voluptates vero expedita ipsam sapiente
+            itaque adipisci? Libero! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim repudiandae
+            similique iste repellat possimus laboriosam a debitis dolor? Suscipit at obcaecati quod et totam dolor id
+            magnam necessitatibus. Inventore, deleniti!
+        </p>
+    </main>
+    <footer>
+        <p>Site desenvolvido por Matheus Alves - Copyright 2022</p>
+    </footer>
+</body>
+
+</html>

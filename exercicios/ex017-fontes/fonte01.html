@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+        
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        h1 {
+            font-style: italic;
+            font-weight: bolder;
+            font-size: 3em;
+            font-family: 'Courier New', Courier, monospace;
+            text-decoration:line-through;
+        }
+
+        h2 {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 2em;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: double;
+        }
+        
+        h3 {
+            font: normal bold 1em Arial;
+            text-decoration: none;
+        }
+
+        p {
+            font: normal normal 1em 'Times new roman';
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur maiores velit tempore, consectetur sit et eveniet voluptatum facilis esse amet expedita. Rem quas qui quod laudantium quasi, voluptatibus doloremque minima.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium nemo esse totam dicta doloribus provident, ratione, labore quasi, odit at ipsam. Sint, reprehenderit! Sequi laborum non a, facere recusandae nisi.</p>
+    <h2>Subtitulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore fuga labore ex dolorum iure. Blanditiis id veritatis cum ipsam totam porro! Minus saepe asperiores adipisci rem reprehenderit porro autem dolore?</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero magnam quisquam obcaecati qui, harum vitae error voluptatum ipsum dolores aperiam? Dolorum doloribus quibusdam, ut quaerat nisi magni non nemo! Quae.</p>
+    <h3>Anotações:</h3>
+    <p>shorthand font (sequência):</p>
+    <ol>
+        <li>font-style</li>
+        <li>font-weight</li>
+        <li>font-size</li>
+        <li>font-family</li>
+   </ol>    
+        <p>Exemplo: Em vez de:</p> 
+    <ul>
+                <li>font-style: italic;</li>
+                <li>font-weight: bolder;</li>
+                <li>font-size: 3em;</li>
+                <li>font-family: 'Courier New', Courier, monospace;</li>
+    </ul>
+        <p>Eu poderia simplificar assim:</p>
+    <ul>
+            <li>font: italic bolder 3em 'Courier New', Courier, monospace;</li>
+    </ul>
+</body>
+</html>

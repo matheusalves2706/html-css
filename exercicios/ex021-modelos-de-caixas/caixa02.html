@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+             
+        body {
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: white;
+        }
+        
+        header {
+            margin-bottom: 20px;
+        }
+        
+        header > h1 {
+            display: block;
+            color: darkslateblue;
+            text-align: center;
+        }   
+        
+        nav {
+            background-color: lightblue;
+            padding: 10px;
+            text-align: center;
+            box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.250);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: rgb(197, 15, 15);
+            font-weight: bold;
+            padding: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            width: auto;
+            text-align: justify;
+            background-color: lightgrey;
+            border-radius: 0px 20px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.250);
+        }
+
+        h2 {
+            color: rgb(100, 4, 68);
+        }
+
+        article {
+         
+        }
+
+        article > aside {
+            font-size: small;
+            color: rgb(15, 15, 201);
+        }
+
+        footer {
+            background-color: rgb(128, 126, 126);
+            color: whitesmoke;
+            font-size: 14px;
+            text-align: center;
+            padding: 2px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        .bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: rgb(233, 32, 32);
+            border-radius: 50px;
+        }
+
+        .bola-menor {
+            display: block;
+            font-size: 12px;
+            text-align: center;
+            align-items: right;
+            height: 50px;
+            width: 50px;
+            margin: 10px;
+            background-color: rgb(233, 32, 32);
+            border-radius: 50px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <div class="bola-menor">
+            <p>small-ball</p>
+        </div>
+        <nav>
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Youtube</a>
+            <a href="#">TikTok</a>
+            <a href="#">Vimeo</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="assuntos">
+            <article>
+                <h2>Assuntos diversos</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ullam officiis, facilis ad aspernatur consectetur, reprehenderit eum at sit sapiente iste quisquam dolores quibusdam non beatae animi excepturi? Reprehenderit, ratione. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit nihil numquam vel voluptatibus ut distinctio, cum qui, eligendi repellat quia aliquid atque laboriosam, unde soluta ipsa dignissimos pariatur amet nesciunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint commodi adipisci magni. Est fugit optio perferendis veritatis tenetur voluptates, quos officia. Dolorum praesentium voluptate ipsum incidunt, explicabo eos quasi magnam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse voluptatum doloribus id commodi beatae excepturi eaque adipisci inventore fugiat repellat itaque accusantium vero sequi quisquam quod, facilis vitae ea a.</p>
+                <aside>Por Carlos de Andrade</aside>
+            </article>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque excepturi, odio voluptatibus hic suscipit sit officia voluptas ab, quasi eum magnam est nihil quia corporis recusandae, veritatis dolores sint aspernatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eaque iusto architecto accusantium incidunt minima esse neque? Distinctio accusantium, illo, pariatur nemo ad possimus tempora non voluptate unde fuga obcaecati. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa beatae, molestias cumque dolores minima doloribus eum saepe dignissimos non quam repellendus quas deserunt minus voluptas esse error nesciunt aliquam incidunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magni maxime nihil laudantium, at consectetur natus, sed quam qui officiis ea inventore? Alias molestias perferendis atque illum iure dolor magni.</p>
+                <aside>
+                    <p>Por José da Silva</p>    
+                </aside>
+            </article>
+            <article>
+                <h2>Notícias sobre o mundo</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, eveniet? Mollitia sapiente doloremque consectetur deserunt numquam. Unde fuga accusantium, fugiat assumenda voluptas architecto ad nam mollitia aut maiores reprehenderit perferendis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, perspiciatis? Non, enim amet fugiat, quae corrupti ab a ad assumenda ea incidunt dolorum quaerat neque, dolor deleniti laudantium nostrum iure! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum quibusdam voluptatem nemo consequatur a impedit numquam, neque odio obcaecati cum in temporibus, corporis quisquam illo pariatur dolor ea sed! Quidem? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore impedit sed exercitationem harum perspiciatis! Quisquam ducimus impedit aspernatur cum assumenda repellendus, reiciendis nisi exercitationem perspiciatis voluptates reprehenderit commodi quas. Corrupti.</p>
+                <aside>
+                    <p>Por Maria Cardoso</p>
+                </aside>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Dev by Matheus Alves</p>
+    </footer>
+    <div class="bola">
+    </div>
+</body>
+</html>
